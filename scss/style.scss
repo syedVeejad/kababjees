@@ -1,0 +1,544 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scrollbar-color: rgb(137, 111, 62) rgb(189, 188, 188);
+}
+
+
+.vidoe-container{
+  height: 100vh !important;
+  
+
+
+
+
+
+
+
+  .contact {
+    border-bottom: dotted 1.5px #fff;
+  }
+  
+  .fa-brands, .fab {
+    font-weight: 400;
+  }
+  
+  .video-background {
+    object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    
+  }
+  .navbar-1{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .nav-link img {
+    height: 70px;
+    width: 350px;
+  }
+  
+  #navbarNav ul li a {
+    border-bottom: dotted 1.5px #fff;
+    border-top: dotted 1.5px #fff;
+  }
+  
+  .exp {
+    top: 0;
+    background-color: #71757897;
+    height: 100vh;
+   
+  }
+  
+
+  .mobile-nav{
+    display: none;
+  }
+
+
+
+}
+// ,,,,,,,,,,,,..................,,,,,,,,,,,,,,
+
+.second-container {
+  background-image: url("/images/back1.jpg");
+  width: 100%;
+  height: auto !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+
+
+  .section-title-border:after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 3px;
+    width: 113px;
+    background-color: #dcb658;
+    margin: 15px auto;
+  }
+
+/* Swiper container */
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+/* Swiper slides */
+.swiper-slide {
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff !important;
+border-radius: 8px;
+padding: 10px;
+}
+
+/* Card styling */
+.items-wrapper {
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.items-wrapper img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.items-wrapper .btn {
+  margin-top: 10px;
+  background-color: #dcb658;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Pagination and navigation buttons */
+.swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  // top: 50%; /* Buttons ko vertically center mein rakhein */
+  left: 50%; /* Buttons ko horizontally center mein rakhein */
+  // transform: translate(-132%, -221px) !important; /* Perfect centering ke liye */
+  width: 40px;
+  height: 40px;
+  // background-color: #727476;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Prev button ko left side center mein rakhein */
+.swiper-button-prev {
+  left: 20px; /* Left side se 20px dur */
+  transform: translate(-165%, -170px) !important;
+}
+
+/* Next button ko right side center mein rakhein */
+.swiper-button-next {
+  left: auto; /* Left position ko override karein */
+  right: -90px; /* Right side se 20px dur */
+  transform: translate(-130%, -170px);
+}
+
+}
+
+// ,,,,,,,,,,,..................,,,,,,,,,,,
+
+.con-three{
+
+  
+.order-no{
+  color:  rgb(222, 166, 62);
+  font-size: 30px;
+}
+
+.order-no :hover{
+  border-bottom: 2px solid #dcb658 !important;
+  cursor: pointer;
+}
+
+
+.order-button{
+  background-color:   rgb(222, 166, 62) !important;
+
+}
+}
+
+
+// ,,,,,,,,,,,,.................,,,,,,,,,,,,,
+
+
+.forth-container{
+  background-image: url("/images/16.jpg");
+  width: 100%;
+  height: auto !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+
+
+
+  .section-title-border:after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 3px;
+    width: 113px;
+    background-color: #dcb658;
+    margin: 15px auto;
+  }
+
+
+/* Swiper container */
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+/* Swiper slides */
+.swiper-slide {
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff !important;
+border-radius: 8px;
+padding: 10px;
+}
+
+/* Card styling */
+.items-wrapper {
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.items-wrapper img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.items-wrapper .btn {
+  margin-top: 10px;
+  background-color: #dcb658;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Pagination and navigation buttons */
+.swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%; /* Buttons ko vertically center mein rakhein */
+  left: 50%; /* Buttons ko horizontally center mein rakhein */
+  // transform: translate(-50%, -50%); /* Perfect centering ke liye */
+  width: 40px;
+  height: 40px;
+  // background-color: #717578;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Prev button ko left side center mein rakhein */
+.swiper-button-prev {
+  left: 20px; /* Left side se 20px dur */
+  transform: translate(-165%, -170px);
+}
+
+/* Next button ko right side center mein rakhein */
+.swiper-button-next {
+  left: auto; /* Left position ko override karein */
+  right: -90px; /* Right side se 20px dur */
+    transform: translate(-130%, -170px);
+}
+
+
+}
+// ,,,,,,,,,,,,,...........,,,,,,,,,,,,,,,
+
+
+.fifth-container{
+
+
+  .fifth-containerimg{
+    height: 50%;
+    width: 40%;
+  }
+
+
+/* Swiper container */
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+/* Swiper slides */
+.swiper-slide {
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff !important;
+border-radius: 8px;
+padding: 10px;
+}
+
+/* Card styling */
+.items-wrapper {
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.items-wrapper img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.items-wrapper .btn {
+  margin-top: 10px;
+  background-color: #dcb658;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Pagination and navigation buttons */
+.swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%; /* Buttons ko vertically center mein rakhein */
+  left: 50%; /* Buttons ko horizontally center mein rakhein */
+  // transform: translate(-50%, -200px !important); /* Perfect centering ke liye */
+  width: 40px;
+  height: 40px;
+  // background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Prev button ko left side center mein rakhein */
+.swiper-button-prev {
+  left: 20px; /* Left side se 20px dur */
+  transform: translate(-165%,-170px);
+}
+
+/* Next button ko right side center mein rakhein */
+.swiper-button-next {
+  left: auto; /* Left position ko override karein */
+  right: -90px; /* Right side se 20px dur */
+  transform: translate(-130%,-170px);
+}
+
+
+}
+
+// ,,,,,,,,,,,,,,,............,,,,,,,,,,,,,,,,,,
+
+
+.about-kababjees{
+  background-image: url("/images/back3.jpg");
+  width: 100%;
+  height: 70vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  // font-size: 200px;
+ 
+
+.name{
+  color: #dcb658;
+}
+ .about-kababjees p{
+  font-size: 50px !important;
+  margin-top: 10px;
+}
+
+
+.carousel-item{
+  margin-top: 10px;
+}
+
+.carousel-item img{
+  width: 200px;
+  height: 50px;
+}
+
+}
+
+// .........,,,,,,,,,,,,,,............
+
+
+.third-location img{
+  height: 200px ;
+  // color: #dcb658;
+
+
+.third-location{
+  color: #dcb658 !important;
+  font-size: 20px !important;
+}
+
+.card-body {
+  color: #dcb658;
+  font-size: 30px !important;
+}
+
+.card{
+  font-size: 30px !important;
+}
+
+}
+
+
+
+// ,,,,,,,,,,.................,,,,,,,,,,,,
+
+footer{
+
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.87) 100%), url(../images/sac1.jpg);
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.87) 100%), url(../images/sac1.jpg);
+  background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.87) 100%), url(../images/sac1.jpg);
+width: 100%;
+// height: 100vh;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+
+.worktime {
+  white-space: nowrap;
+}
+
+.fa-angle-double-up{
+  color: #ffffff;
+}
+
+.dash{
+  color: #dcb658;
+}
+
+.location{
+  text-align: center;
+
+ 
+}
+.location h4 a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.contact ul li a{
+  text-decoration: none !important;
+  list-style: none !important;
+  color: #ffffff;
+  margin-left: -30px;
+  margin-bottom: -10px;
+}
+
+.socials-box li a{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+.fa-facebook{
+  // left: 0;
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: -30px;
+}
+
+
+
+.fa-instagram{
+  
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+
+ul{
+  list-style-type: none;
+  color: #ffffff;
+}
+
+}
